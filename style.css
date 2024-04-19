@@ -1,0 +1,65 @@
+
+.text-center{
+    font-weight:lighter;
+    font-size:x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    color: rgb(148, 146, 170);
+}
+
+.form-search{
+    margin: 50px;
+}
+
+.form-control{
+    max-width: 800px;
+    align-self: center;
+}
+
+.mytext{
+    align-items: center;
+}
+
+#meal-list{
+    margin: 100px;
+    color:aliceblue;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.header-text{
+    color: aliceblue;
+}
+
+#hist {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+.red-background {
+    color: red; /* Set the background color to red */
+    fill: red;
+}
+
+.meal-box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.meal-box:hover {
+    transform: translateY(-8px) scale(1.02);
+}
+.res{
+    color: #dee2e6;
+    font-size:larger;
+}
+#button-search{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease;
+}
